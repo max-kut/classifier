@@ -1,0 +1,22 @@
+{
+    "ok": "Ок",
+    "cancel": "Отмена",
+    "error_alert_title": "Упсс...",
+    "error_alert_text": "Что-то пошло не так! Пожалуйста, попробуйте снова.",
+    "import": "Импортировать",
+    "imported_success": "Ваши данные успешно импортированы.",
+
+    "export": "Экспортировать",
+
+    "enter_your_phrase": "Введите вашу фразу",
+    "enter_your_topic": "Введите вашу тему",
+    "save_phrase": "Сохранить фразу",
+    "accept_predicted": "Принять!",
+    "reject_predicted": "Отклонить",
+
+    "calculate": "Пересчитать",
+    "calculate_pending": "Пересчет выполняется",
+    "calculate_finished": "Пересчет окончен",
+    "calculate_message_pending": "Ваш пересчет работает",
+    "calculate_message_has_predicted": "Пересчет завершен! Новые подсказки готовы"
+}

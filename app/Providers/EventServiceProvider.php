@@ -2,10 +2,13 @@
 
 namespace App\Providers;
 
+use App\Events\CalculatingCompleted;
+use App\Events\CalculatingRunning;
+use App\Listeners\CalculatingCompletedListener;
+use App\Listeners\CalculatingRunningListener;
 use Illuminate\Auth\Events\Registered;
 use Illuminate\Auth\Listeners\SendEmailVerificationNotification;
 use Illuminate\Foundation\Support\Providers\EventServiceProvider as ServiceProvider;
-use Illuminate\Support\Facades\Event;
 
 class EventServiceProvider extends ServiceProvider
 {
@@ -15,9 +18,15 @@ class EventServiceProvider extends ServiceProvider
      * @var array
      */
     protected $listen = [
-        Registered::class => [
+        Registered::class           => [
             SendEmailVerificationNotification::class,
         ],
+        CalculatingRunning::class   => [
+            CalculatingRunningListener::class
+        ],
+        CalculatingCompleted::class => [
+            CalculatingCompletedListener::class
+        ]
     ];
 
     /**

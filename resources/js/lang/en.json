@@ -1,0 +1,22 @@
+{
+    "ok": "Ok",
+    "cancel": "Cancel",
+    "error_alert_title": "Oops...",
+    "error_alert_text": "Something went wrong! Please try again.",
+    "import": "Import data",
+    "imported_success": "Your data has been successfully imported.",
+
+    "export": "Export data",
+
+    "enter_your_phrase": "Enter your phrase",
+    "enter_your_topic": "Enter your topic",
+    "save_phrase": "Save phrase",
+    "accept_predicted": "Accept!",
+    "reject_predicted": "Reject",
+
+    "calculate": "Calculate",
+    "calculate_pending": "Calculating running",
+    "calculate_finished": "Calculating finished",
+    "calculate_message_pending": "Your calculating is running",
+    "calculate_message_has_predicted": "Calculating completed! Has new predicted topics"
+}

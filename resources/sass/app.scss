@@ -1,1 +1,13 @@
-//
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+@import '~bootstrap-vue/src/index.scss';
+@import '~sweetalert2/src/sweetalert2';
+
+.user-interface{
+    .table{
+        margin-top: 20px;
+    }
+}
